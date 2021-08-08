@@ -1,5 +1,4 @@
-//MATRIC NO: 190805503
-//NAME: OLORUNFEMI-OJO DANIEL TOMIWA
+// OLORUNFEMI-OJO TOMIWA
 
 public class Course {
 	private String courseName;
