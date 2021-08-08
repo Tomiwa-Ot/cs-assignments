@@ -1,5 +1,3 @@
-//MATRIC NO: 190805503
-//NAME: OLORUNFEMI-OJO DANIEL TOMIWA
 
 public class Exercise {
 
