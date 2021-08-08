@@ -1,4 +1,3 @@
-// OLORUNFEMI-OJO TOMIWA
 
 public class Course {
 	private String courseName;
