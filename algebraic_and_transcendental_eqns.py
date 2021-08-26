@@ -240,5 +240,5 @@ calculate_all_btn.place(width=110, x=40, y=370)
 
 
 
-if __name__ =="__main__":
+if __name__ == "__main__":
     window.mainloop()
