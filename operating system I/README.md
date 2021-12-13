@@ -1,4 +1,4 @@
-### Best Fit & First Fit Memory Allcoation Algorithms
+### [Best Fit & First Fit Memory Allcoation Algorithms](/best%20fit%20and%20first%20fit)
 - WRITE A CODE SHOWCASING BEST FIT AND FIRST FIT ALGORITHM  
 - DO THE DOCUMENTATION OF THE PROCESS
 - INCLUDE A REAL LIFE SCENARIO OF THESE TWO ALGORITHMS
