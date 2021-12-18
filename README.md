@@ -5,3 +5,4 @@
 - [Discrete & Data Structures](/discrete%20and%20data%20structures)
 - [Linear Algebra](/linear%20algebra)
 - [Operating System I](/operating%20system%20I)
+- [Introduction to Systems Analysis & Design](/systems%20analysis%20and%20design)
