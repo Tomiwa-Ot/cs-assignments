@@ -1,4 +1,4 @@
-### CSC Assignments
+### CS Assignments
 #### 200L
 - [Introduction to Java](/java-classes)
 - [Computational Methods](/computational%20methods)
