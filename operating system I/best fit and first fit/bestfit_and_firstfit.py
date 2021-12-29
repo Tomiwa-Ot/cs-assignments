@@ -14,3 +14,21 @@ Members:
     4. Ogunrinde Motunrayo      190805514
     5. Ademuyiwa Abdulbaqi      190805522
 '''
+
+
+
+def best_fit():
+   pass
+
+
+def first_fit():
+    pass
+
+
+def main():
+    first_fit()
+    best_fit()
+
+
+if __name__ == "__main__":
+    main()
