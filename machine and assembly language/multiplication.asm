@@ -4,11 +4,15 @@ TITLE Multiplication of 3 32-Bit Numbers
 .386
 .MODEL FLAT, STDCALL
 .STACK
+ExitProcess PROTO, dwExitCode:DWORD
 
 .DATA
 
 .CODE
 main PROC
+
+
+	INVOKE ExitProcess, 0
 
 main ENDP
 
