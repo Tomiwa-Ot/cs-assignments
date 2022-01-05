@@ -15,6 +15,8 @@ Members:
     5. Ademuyiwa Abdulbaqi      190805522
 '''
 
+def display_parameter_values():
+   pass
 
 def best_fit():
    pass
