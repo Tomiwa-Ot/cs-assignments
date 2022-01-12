@@ -1,1 +1,2 @@
-
+- What do you understand by the term synchronisers?
+- [Latches](Latches.java), [Barriers](Barriers.java), [Semaphores](Semaphores.java), [Blocking Queues](BlockingQueues.java) are examples of synchronisers. Discuss, give an example and implement your answers.
