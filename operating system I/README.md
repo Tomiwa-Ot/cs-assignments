@@ -5,7 +5,7 @@
 
 ### [Implement Segmented Memory Allocation scheme](segmented_memory_allocation.py)
 
-### [Implement Dining Philosophers problem]()
+### [Implement Dining Philosophers problem](dining_philosophers_problem.py)
 
 ### [Implement Bankers Algorithm](bankers_algorithm.py)
 
