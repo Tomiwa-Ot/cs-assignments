@@ -1,4 +1,4 @@
-### [Best Fit & First Fit Memory Allcoation Algorithms](best_fit_and_first_fit.py)
+### [Best Fit & First Fit Memory Allcoation Algorithms](bestfit_and_firstfit.py)
 - WRITE A CODE SHOWCASING BEST FIT AND FIRST FIT ALGORITHM  
 - DO THE DOCUMENTATION OF THE PROCESS
 - INCLUDE A REAL LIFE SCENARIO OF THESE TWO ALGORITHMS
