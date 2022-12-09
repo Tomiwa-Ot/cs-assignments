@@ -1,4 +1,3 @@
-
 import os
 
 class Resources:
