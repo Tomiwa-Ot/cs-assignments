@@ -1,0 +1,231 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo: Add custom markers in Mapbox GL JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      .marker {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Marker.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .ambulance {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Ambulance.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all 0.9s ease-in-out;
+        -moz-transition: all 0.9s ease-in-out;
+        -ms-transition: all 0.9s ease-in-out;
+        -o-transition: all 0.9s ease-in-out;
+        transition: all 0.9s ease-in-out;
+      }
+      .audi {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Audi.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all 0.9s ease-in-out;
+        -moz-transition: all 0.9s ease-in-out;
+        -ms-transition: all 0.9s ease-in-out;
+        -o-transition: all 0.9s ease-in-out;
+        transition: all 0.9s ease-in-out;
+      }
+      .police {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Police.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all 0.9s ease-in-out;
+        -moz-transition: all 0.9s ease-in-out;
+        -ms-transition: all 0.9s ease-in-out;
+        -o-transition: all 0.9s ease-in-out;
+        transition: all 0.9s ease-in-out;
+      }
+      .truck {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Mini_truck.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all 0.9s ease-in-out;
+        -moz-transition: all 0.9s ease-in-out;
+        -ms-transition: all 0.9s ease-in-out;
+        -o-transition: all 0.9s ease-in-out;
+        transition: all 0.9s ease-in-out;
+      }
+      .taxi {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Taxi.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all 0.9s ease-in-out;
+        -moz-transition: all 0.9s ease-in-out;
+        -ms-transition: all 0.9s ease-in-out;
+        -o-transition: all 0.9s ease-in-out;
+        transition: all 0.9s ease-in-out;
+      }
+      .viper {
+        background-image: url('https://raw.githubusercontent.com/Tomiwa-Ot/cs-assignments/master/concurrent%20programming/vehicle%20fleet%20tracker/view/assets/Black_viper.png');
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: all 0.9s ease-in-out;
+        -moz-transition: all 0.9s ease-in-out;
+        -ms-transition: all 0.9s ease-in-out;
+        -o-transition: all 0.9s ease-in-out;
+        transition: all 0.9s ease-in-out;
+      }
+      .mapboxgl-popup {
+        max-width: 200px;
+      }
+      .mapboxgl-popup-content {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script>
+        let routes = undefined
+        var vehicles = {
+            0 : 'ambulance',
+            1 : 'audi',
+            2 : 'police',
+            3 : 'taxi',
+            4 : 'truck',
+            5 : 'viper'
+        }
+        let vehicleMarkers = {
+            'ambulance' : undefined,
+            'audi' : undefined,
+            'police' : undefined,
+            'taxi' : undefined,
+            'truck' : undefined,
+            'viper' : undefined
+        }
+        mapboxgl.accessToken = 'ACCESS TOKEN GOES HERE';
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v10',
+            center: [3.391004, 6.515844],
+            zoom: 15.7,
+        });
+        map.addControl(new mapboxgl.NavigationControl());
+      
+        function move(id, x, y) {
+            vehicleMarkers[vehicles[id]].setLngLat([x, y])
+        }
+
+        async function getStartPoint(url) {
+            const response = await fetch(url)  
+            if(!response.ok)
+                throw Error(response.statusText)
+            const json = await response.json()
+            return json
+        }
+
+        (async function(){
+            let url = 'https://api.mapbox.com/directions/v5/mapbox/driving/3.384685%2C6.517622%3B3.397718%2C6.515656?alternatives=true&geometries=geojson&language=en&overview=full&steps=true&access_token=YOUR_MAPBOX_ACCESS_TOKEN_HERE'
+
+            routes = await getStartPoint(url)
+            
+            const geojson = {
+                'type': 'FeatureCollection',
+                'features': [
+                {
+                    'type': 'Feature',
+                    'geometry': {
+                    'type': 'Point',
+                    'coordinates': routes['routes'][0]['geometry']['coordinates'][0]
+                    },
+                    'properties': {
+                    'title': 'Start',
+                    'description': 'Start'
+                    }
+                },
+                {
+                    'type': 'Feature',
+                    'geometry': {
+                    'type': 'Point',
+                    'coordinates': routes['routes'][0]['geometry']['coordinates'][routes['routes'][0]['geometry']['coordinates'].length - 1]
+                    },
+                    'properties': {
+                    'title': 'Stop',
+                    'description': 'Stop'
+                    }
+                }
+                ]
+            };
+
+            // add markers to map
+            for (const feature of geojson.features) {
+                // create a HTML element for each feature
+                const el = document.createElement('div');
+                el.className = 'marker';
+
+                // make a marker for each feature and add it to the map
+                new mapboxgl.Marker(el)
+                .setLngLat(feature.geometry.coordinates)
+                .setPopup(
+                    new mapboxgl.Popup({ offset: 25 }) // add popups
+                    .setHTML(
+                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
+                    )
+                )
+                .addTo(map);
+            }
+            for (i = 0; i <= 5; i++) {
+                const el = document.createElement('div');
+                el.className = vehicles[i];
+
+                // make a marker for each feature and add it to the map
+                vehicleMarkers[vehicles[i]] = new mapboxgl.Marker(el)
+                .setLngLat(routes['routes'][0]['geometry']['coordinates'][0])
+                .setPopup(
+                    new mapboxgl.Popup({ offset: 25 }) // add popups
+                )
+                .addTo(map);
+            }
+        })()
+        
+    </script>
+  </body>
+</html>
