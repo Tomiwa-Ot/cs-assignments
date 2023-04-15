@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_bank_application_1_1_invalid_amount_exception" xml:lang="en-US">
+<title>BankApplication.InvalidAmountException Class Reference</title>
+<indexterm><primary>BankApplication.InvalidAmountException</primary></indexterm>
+<para>
+
+<para>Exception thrown if customer enters a non-positive amount. </para>
+ 
+</para>
+<para>Inheritance diagram for BankApplication.InvalidAmountException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_bank_application_1_1_invalid_amount_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_bank_application_1_1_invalid_amount_exception_1a2895b2180a724757deaca560af0dc3d0">InvalidAmountException</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_bank_application_1_1_invalid_amount_exception_1a438aefd09c300ed5644cb22992e26a33">InvalidAmountException</link> (double amount)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Exception thrown if customer enters a non-positive amount. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_bank_application_1_1_invalid_amount_exception_1a2895b2180a724757deaca560af0dc3d0"/><section>
+    <title>InvalidAmountException()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InvalidAmountException</primary><secondary>BankApplication.InvalidAmountException</secondary></indexterm>
+<indexterm><primary>BankApplication.InvalidAmountException</primary><secondary>InvalidAmountException</secondary></indexterm>
+<para><computeroutput>BankApplication.InvalidAmountException.InvalidAmountException ( )</computeroutput></para></section>
+<anchor xml:id="_class_bank_application_1_1_invalid_amount_exception_1a438aefd09c300ed5644cb22992e26a33"/><section>
+    <title>InvalidAmountException()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InvalidAmountException</primary><secondary>BankApplication.InvalidAmountException</secondary></indexterm>
+<indexterm><primary>BankApplication.InvalidAmountException</primary><secondary>InvalidAmountException</secondary></indexterm>
+<para><computeroutput>BankApplication.InvalidAmountException.InvalidAmountException (double amount)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/<link linkend="__invalid_amount_exception_8cs">InvalidAmountException.cs</link></section>
+</section>

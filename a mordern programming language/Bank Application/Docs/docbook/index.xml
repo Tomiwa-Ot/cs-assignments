@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>Bank Application</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespace_bank_application.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="class_bank_application_1_1_account.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_account_not_found_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_application.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_customer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_database.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_insufficient_balance_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_invalid_amount_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_program.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_transaction.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_bank_application_1_1_util.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_account_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_account_type_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_application_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_customer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_database_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_account_not_found_exception_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_insufficient_balance_exception_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_invalid_amount_exception_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_program_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_transaction_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_util_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__c___users__e_n_v_y_15_source_repos__bank_application_packages__system__text__json_7_0_2__r_e_a_d_m_e" xml:lang="en-US">
+
+<para>Provides high-performance and low-allocating types that serialize objects to JavaScript Object Notation (JSON) text and deserialize JSON text to objects, with UTF-8 support built-in. Also provides types to read and write JSON text encoded as UTF-8, and to create an in-memory document object model (DOM), that is read-only, for random access of the JSON elements within a structured view of the data.</para>
+
+<para>The <computeroutput>System.Text.Json</computeroutput> library is built-in as part of the shared framework in .NET Runtime. The package can be installed when you need to use it in other target frameworks.</para>
+
+<para>For more information, see the documentation:</para>
+
+<para><itemizedlist>
+<listitem>
+<para><link xlink:href="https://docs.microsoft.com/dotnet/standard/serialization/system-text-json-overview">JSON serialization and deserialization in .NET</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://docs.microsoft.com/dotnet/standard/serialization/system-text-json-how-to">How to serialize and deserialize JSON in .NET</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://docs.microsoft.com/dotnet/api/system.text.json">System.Text.Json API reference</link> </para>
+</listitem></itemizedlist>
+</para>
+</section>

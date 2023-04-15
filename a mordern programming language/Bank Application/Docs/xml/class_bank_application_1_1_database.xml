@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_bank_application_1_1_database" kind="class" language="C#" prot="public">
+    <compoundname>BankApplication::Database</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_bank_application_1_1_database_1a47bcfcfe4861000043443de33d85351b" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string BankApplication.Database.databaseFile</definition>
+        <argsstring></argsstring>
+        <name>databaseFile</name>
+        <qualifiedname>BankApplication.Database.databaseFile</qualifiedname>
+        <initializer>= &quot;data.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="16" column="31" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bank_application_1_1_database_1a7824b6dc337068c2e729c595643fcac7" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string BankApplication.Database.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>BankApplication.Database.path</qualifiedname>
+        <initializer>= $&quot;C:\\Users\\ENVY1\\source\\repos\\Bankpplication\\{databaseFile}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="17" column="31" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_bank_application_1_1_database_1a8afc08a2177c5758b45dbdcc98871359" prot="public" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_bank_application_1_1_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>List&lt;Account&gt; BankApplication.Database.accounts</definition>
+        <argsstring></argsstring>
+        <name>accounts</name>
+        <qualifiedname>BankApplication.Database.accounts</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_bank_application_1_1_account" kindref="compound">Account</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="18" column="28" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bank_application_1_1_database_1a74c4cf740dc9281db795cd7dd71ccaf7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BankApplication.Database.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>BankApplication.Database.Initialize</qualifiedname>
+        <briefdescription>
+<para>Loads account information from data store. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="23" column="28" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_application_1_1_database_1a18ce537c291ac024807b3085783ee8bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BankApplication.Database.Insert</definition>
+        <argsstring>(Account account)</argsstring>
+        <name>Insert</name>
+        <qualifiedname>BankApplication.Database.Insert</qualifiedname>
+        <param>
+          <type><ref refid="class_bank_application_1_1_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+<para>Adds a new account into the account list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="33" column="28" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_application_1_1_database_1afa04b47b87e3e265896e678adb1e88bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BankApplication.Database.Update</definition>
+        <argsstring>(Account account)</argsstring>
+        <name>Update</name>
+        <qualifiedname>BankApplication.Database.Update</qualifiedname>
+        <param>
+          <type><ref refid="class_bank_application_1_1_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+<para>Update data about an existing account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="43" column="28" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="43" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_application_1_1_database_1ac011b2f3070d73d5973d7fd881ba2ece" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bank_application_1_1_account" kindref="compound">Account</ref></type>
+        <definition>static Account BankApplication.Database.Search</definition>
+        <argsstring>(string accountNumber)</argsstring>
+        <name>Search</name>
+        <qualifiedname>BankApplication.Database.Search</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>accountNumber</declname>
+        </param>
+        <briefdescription>
+<para>Searches for an account in the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accountNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Account to search for</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If the account exists, it is returned; else <computeroutput>null</computeroutput></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="59" column="31" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="59" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_application_1_1_database_1a4fde7ec57b307b02941818be34023121" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BankApplication.Database.Commit</definition>
+        <argsstring>()</argsstring>
+        <name>Commit</name>
+        <qualifiedname>BankApplication.Database.Commit</qualifiedname>
+        <briefdescription>
+<para>Publish the account list to the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="74" column="28" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="74" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simulation of a database system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" line="14" column="11" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Database.cs" bodystart="15" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_bank_application_1_1_database_1a8afc08a2177c5758b45dbdcc98871359" prot="public" virt="non-virtual"><scope>BankApplication::Database</scope><name>accounts</name></member>
+      <member refid="class_bank_application_1_1_database_1a4fde7ec57b307b02941818be34023121" prot="public" virt="non-virtual"><scope>BankApplication::Database</scope><name>Commit</name></member>
+      <member refid="class_bank_application_1_1_database_1a47bcfcfe4861000043443de33d85351b" prot="private" virt="non-virtual"><scope>BankApplication::Database</scope><name>databaseFile</name></member>
+      <member refid="class_bank_application_1_1_database_1a74c4cf740dc9281db795cd7dd71ccaf7" prot="public" virt="non-virtual"><scope>BankApplication::Database</scope><name>Initialize</name></member>
+      <member refid="class_bank_application_1_1_database_1a18ce537c291ac024807b3085783ee8bc" prot="public" virt="non-virtual"><scope>BankApplication::Database</scope><name>Insert</name></member>
+      <member refid="class_bank_application_1_1_database_1a7824b6dc337068c2e729c595643fcac7" prot="private" virt="non-virtual"><scope>BankApplication::Database</scope><name>path</name></member>
+      <member refid="class_bank_application_1_1_database_1ac011b2f3070d73d5973d7fd881ba2ece" prot="public" virt="non-virtual"><scope>BankApplication::Database</scope><name>Search</name></member>
+      <member refid="class_bank_application_1_1_database_1afa04b47b87e3e265896e678adb1e88bd" prot="public" virt="non-virtual"><scope>BankApplication::Database</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

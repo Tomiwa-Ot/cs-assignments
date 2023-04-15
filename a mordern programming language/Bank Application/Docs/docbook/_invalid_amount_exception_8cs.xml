@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__invalid_amount_exception_8cs" xml:lang="en-US">
+<title>C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs File Reference</title>
+<indexterm><primary>C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_bank_application_1_1_invalid_amount_exception">BankApplication.InvalidAmountException</link></para>
+
+<para>Exception thrown if customer enters a non-positive amount. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_bank_application">BankApplication</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

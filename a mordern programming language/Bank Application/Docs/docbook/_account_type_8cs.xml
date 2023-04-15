@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__account_type_8cs" xml:lang="en-US">
+<title>C:/Users/ENVY 15/source/repos/BankApplication/AccountType.cs File Reference</title>
+<indexterm><primary>C:/Users/ENVY 15/source/repos/BankApplication/AccountType.cs</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_bank_application">BankApplication</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_namespace_bank_application_1af9451dc19dfe3df0cc392097cff3854a">BankApplication.AccountType</link> { <link linkend="_namespace_bank_application_1af9451dc19dfe3df0cc392097cff3854aaab0da0e987457927aebb5111d5d32c12">BankApplication.Savings</link>
+, <link linkend="_namespace_bank_application_1af9451dc19dfe3df0cc392097cff3854aa222a267cc5778206b253be35ee3ddab5">BankApplication.Current</link>
+ }</para>
+
+<para>Types of bank accounts. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

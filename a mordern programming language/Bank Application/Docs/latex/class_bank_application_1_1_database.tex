@@ -1,0 +1,113 @@
+\hypertarget{class_bank_application_1_1_database}{}\doxysection{Bank\+Application.\+Database Class Reference}
+\label{class_bank_application_1_1_database}\index{BankApplication.Database@{BankApplication.Database}}
+
+
+Simulation of a database system.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_bank_application_1_1_database_a74c4cf740dc9281db795cd7dd71ccaf7}{Initialize}} ()
+\begin{DoxyCompactList}\small\item\em Loads account information from data store. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_bank_application_1_1_database_a18ce537c291ac024807b3085783ee8bc}{Insert}} (\mbox{\hyperlink{class_bank_application_1_1_account}{Account}} account)
+\begin{DoxyCompactList}\small\item\em Adds a new account into the account list. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_bank_application_1_1_database_afa04b47b87e3e265896e678adb1e88bd}{Update}} (\mbox{\hyperlink{class_bank_application_1_1_account}{Account}} account)
+\begin{DoxyCompactList}\small\item\em Update data about an existing account. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_bank_application_1_1_account}{Account}} \mbox{\hyperlink{class_bank_application_1_1_database_ac011b2f3070d73d5973d7fd881ba2ece}{Search}} (string account\+Number)
+\begin{DoxyCompactList}\small\item\em Searches for an account in the data store. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_bank_application_1_1_database_a4fde7ec57b307b02941818be34023121}{Commit}} ()
+\begin{DoxyCompactList}\small\item\em Publish the account list to the data store. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_bank_application_1_1_account}{Account}} $>$ \mbox{\hyperlink{class_bank_application_1_1_database_a8afc08a2177c5758b45dbdcc98871359}{accounts}} = new List$<$\mbox{\hyperlink{class_bank_application_1_1_account}{Account}}$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Simulation of a database system. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bank_application_1_1_database_a4fde7ec57b307b02941818be34023121}\label{class_bank_application_1_1_database_a4fde7ec57b307b02941818be34023121}} 
+\index{BankApplication.Database@{BankApplication.Database}!Commit@{Commit}}
+\index{Commit@{Commit}!BankApplication.Database@{BankApplication.Database}}
+\doxysubsubsection{\texorpdfstring{Commit()}{Commit()}}
+{\footnotesize\ttfamily static void Bank\+Application.\+Database.\+Commit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Publish the account list to the data store. 
+
+\mbox{\Hypertarget{class_bank_application_1_1_database_a74c4cf740dc9281db795cd7dd71ccaf7}\label{class_bank_application_1_1_database_a74c4cf740dc9281db795cd7dd71ccaf7}} 
+\index{BankApplication.Database@{BankApplication.Database}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!BankApplication.Database@{BankApplication.Database}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily static void Bank\+Application.\+Database.\+Initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads account information from data store. 
+
+\mbox{\Hypertarget{class_bank_application_1_1_database_a18ce537c291ac024807b3085783ee8bc}\label{class_bank_application_1_1_database_a18ce537c291ac024807b3085783ee8bc}} 
+\index{BankApplication.Database@{BankApplication.Database}!Insert@{Insert}}
+\index{Insert@{Insert}!BankApplication.Database@{BankApplication.Database}}
+\doxysubsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily static void Bank\+Application.\+Database.\+Insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bank_application_1_1_account}{Account}}}]{account }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adds a new account into the account list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bank_application_1_1_database_ac011b2f3070d73d5973d7fd881ba2ece}\label{class_bank_application_1_1_database_ac011b2f3070d73d5973d7fd881ba2ece}} 
+\index{BankApplication.Database@{BankApplication.Database}!Search@{Search}}
+\index{Search@{Search}!BankApplication.Database@{BankApplication.Database}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_bank_application_1_1_account}{Account}} Bank\+Application.\+Database.\+Search (\begin{DoxyParamCaption}\item[{string}]{account\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Searches for an account in the data store. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account\+Number} & Account to search for\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the account exists, it is returned; else {\ttfamily null}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bank_application_1_1_database_afa04b47b87e3e265896e678adb1e88bd}\label{class_bank_application_1_1_database_afa04b47b87e3e265896e678adb1e88bd}} 
+\index{BankApplication.Database@{BankApplication.Database}!Update@{Update}}
+\index{Update@{Update}!BankApplication.Database@{BankApplication.Database}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily static void Bank\+Application.\+Database.\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bank_application_1_1_account}{Account}}}]{account }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Update data about an existing account. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bank_application_1_1_database_a8afc08a2177c5758b45dbdcc98871359}\label{class_bank_application_1_1_database_a8afc08a2177c5758b45dbdcc98871359}} 
+\index{BankApplication.Database@{BankApplication.Database}!accounts@{accounts}}
+\index{accounts@{accounts}!BankApplication.Database@{BankApplication.Database}}
+\doxysubsubsection{\texorpdfstring{accounts}{accounts}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_bank_application_1_1_account}{Account}}$>$ Bank\+Application.\+Database.\+accounts = new List$<$\mbox{\hyperlink{class_bank_application_1_1_account}{Account}}$>$()\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+ENVY 15/source/repos/\+Bank\+Application/\mbox{\hyperlink{_database_8cs}{Database.\+cs}}\end{DoxyCompactItemize}

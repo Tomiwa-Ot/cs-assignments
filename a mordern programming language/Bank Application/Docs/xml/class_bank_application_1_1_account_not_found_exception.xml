@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_bank_application_1_1_account_not_found_exception" kind="class" language="C#" prot="public">
+    <compoundname>BankApplication::AccountNotFoundException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bank_application_1_1_account_not_found_exception_1ab2f5547d3f934cea28d91482291fd301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BankApplication.AccountNotFoundException.AccountNotFoundException</definition>
+        <argsstring>()</argsstring>
+        <name>AccountNotFoundException</name>
+        <qualifiedname>BankApplication.AccountNotFoundException.AccountNotFoundException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/AccountNotFoundException.cs" line="14" column="16" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/AccountNotFoundException.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_application_1_1_account_not_found_exception_1ad7d29842bd895e0643f592221593fdcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BankApplication.AccountNotFoundException.AccountNotFoundException</definition>
+        <argsstring>(string accountNumber)</argsstring>
+        <name>AccountNotFoundException</name>
+        <qualifiedname>BankApplication.AccountNotFoundException.AccountNotFoundException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>accountNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/AccountNotFoundException.cs" line="16" column="16" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/AccountNotFoundException.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Exception thrown if an account cannot be found in the data store. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BankApplication.AccountNotFoundException</label>
+        <link refid="class_bank_application_1_1_account_not_found_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BankApplication.AccountNotFoundException</label>
+        <link refid="class_bank_application_1_1_account_not_found_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/AccountNotFoundException.cs" line="12" column="11" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/AccountNotFoundException.cs" bodystart="13" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_bank_application_1_1_account_not_found_exception_1ab2f5547d3f934cea28d91482291fd301" prot="public" virt="non-virtual"><scope>BankApplication::AccountNotFoundException</scope><name>AccountNotFoundException</name></member>
+      <member refid="class_bank_application_1_1_account_not_found_exception_1ad7d29842bd895e0643f592221593fdcb" prot="public" virt="non-virtual"><scope>BankApplication::AccountNotFoundException</scope><name>AccountNotFoundException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

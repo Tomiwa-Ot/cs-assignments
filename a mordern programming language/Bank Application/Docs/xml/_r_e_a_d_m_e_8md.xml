@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>About</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Provides<sp/>high-performance<sp/>and<sp/>low-allocating<sp/>types<sp/>that<sp/>serialize<sp/>objects<sp/>to<sp/>JavaScript<sp/>Object<sp/>Notation<sp/>(JSON)<sp/>text<sp/>and<sp/>deserialize<sp/>JSON<sp/>text<sp/>to<sp/>objects,<sp/>with<sp/>UTF-8<sp/>support<sp/>built-in.<sp/>Also<sp/>provides<sp/>types<sp/>to<sp/>read<sp/>and<sp/>write<sp/>JSON<sp/>text<sp/>encoded<sp/>as<sp/>UTF-8,<sp/>and<sp/>to<sp/>create<sp/>an<sp/>in-memory<sp/>document<sp/>object<sp/>model<sp/>(DOM),<sp/>that<sp/>is<sp/>read-only,<sp/>for<sp/>random<sp/>access<sp/>of<sp/>the<sp/>JSON<sp/>elements<sp/>within<sp/>a<sp/>structured<sp/>view<sp/>of<sp/>the<sp/>data.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>`System.Text.Json`<sp/>library<sp/>is<sp/>built-in<sp/>as<sp/>part<sp/>of<sp/>the<sp/>shared<sp/>framework<sp/>in<sp/>.NET<sp/>Runtime.<sp/>The<sp/>package<sp/>can<sp/>be<sp/>installed<sp/>when<sp/>you<sp/>need<sp/>to<sp/>use<sp/>it<sp/>in<sp/>other<sp/>target<sp/>frameworks.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>more<sp/>information,<sp/>see<sp/>the<sp/>documentation:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>[JSON<sp/>serialization<sp/>and<sp/>deserialization<sp/>in<sp/>.NET](https://docs.microsoft.com/dotnet/standard/serialization/system-text-json-overview)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[How<sp/>to<sp/>serialize<sp/>and<sp/>deserialize<sp/>JSON<sp/>in<sp/>.NET](https://docs.microsoft.com/dotnet/standard/serialization/system-text-json-how-to)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[System.Text.Json<sp/>API<sp/>reference](https://docs.microsoft.com/dotnet/api/system.text.json)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ENVY 15/source/repos/BankApplication/packages/System.Text.Json.7.0.2/README.md"/>
+  </compounddef>
+</doxygen>

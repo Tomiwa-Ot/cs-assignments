@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_generics" kind="namespace" language="C#">
+    <compoundname>Generics</compoundname>
+    <innerclass refid="class_generics_1_1_number" prot="public">Generics::Number</innerclass>
+    <innerclass refid="class_generics_1_1_program" prot="public">Generics::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ENVY 15/source/repos/Generics/Number.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

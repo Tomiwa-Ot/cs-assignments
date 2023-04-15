@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_bank_application_1_1_util" xml:lang="en-US">
+<title>BankApplication.Util Class Reference</title>
+<indexterm><primary>BankApplication.Util</primary></indexterm>
+<para>
+
+<para>Utility functions required by the application. </para>
+ 
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static string <link linkend="_class_bank_application_1_1_util_1a7033c730cec4f18a6f56ab0674309edf">GenerateAccountNumber</link> ()</para>
+
+<para>Generates a bank account for a new customer. </para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_bank_application_1_1_util_1a9f501d58f66050640493bea1563d7ac2">HashString</link> (string text)</para>
+
+<para>Generate a PBKDF2 hash. </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_bank_application_1_1_util_1a49c4a4c526a9d53545c5d4400f309a91">VerifyHash</link> (string text, string hashedText)</para>
+
+<para>Generates PBKDF2 hash of text and compares with hashedText to see if they match. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Utility functions required by the application. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_bank_application_1_1_util_1a7033c730cec4f18a6f56ab0674309edf"/><section>
+    <title>GenerateAccountNumber()</title>
+<indexterm><primary>GenerateAccountNumber</primary><secondary>BankApplication.Util</secondary></indexterm>
+<indexterm><primary>BankApplication.Util</primary><secondary>GenerateAccountNumber</secondary></indexterm>
+<para><computeroutput>static string BankApplication.Util.GenerateAccountNumber ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Generates a bank account for a new customer. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>The generated account number</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_bank_application_1_1_util_1a9f501d58f66050640493bea1563d7ac2"/><section>
+    <title>HashString()</title>
+<indexterm><primary>HashString</primary><secondary>BankApplication.Util</secondary></indexterm>
+<indexterm><primary>BankApplication.Util</primary><secondary>HashString</secondary></indexterm>
+<para><computeroutput>static string BankApplication.Util.HashString (string text)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Generate a PBKDF2 hash. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>The string to convert into a PBKDF2 hash</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The generated PBKDF2 hash</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_bank_application_1_1_util_1a49c4a4c526a9d53545c5d4400f309a91"/><section>
+    <title>VerifyHash()</title>
+<indexterm><primary>VerifyHash</primary><secondary>BankApplication.Util</secondary></indexterm>
+<indexterm><primary>BankApplication.Util</primary><secondary>VerifyHash</secondary></indexterm>
+<para><computeroutput>static bool BankApplication.Util.VerifyHash (string text, string hashedText)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Generates PBKDF2 hash of text and compares with hashedText to see if they match. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>The string to convert into a PBKDF2 hash</para>
+</entry>
+                            </row>
+                            <row>
+<entry>hashedText</entry><entry>
+<para>The hash to be compared with</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para><computeroutput>true</computeroutput> if hashes match, else <computeroutput>false</computeroutput></para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/ENVY 15/source/repos/BankApplication/<link linkend="__util_8cs">Util.cs</link></section>
+</section>

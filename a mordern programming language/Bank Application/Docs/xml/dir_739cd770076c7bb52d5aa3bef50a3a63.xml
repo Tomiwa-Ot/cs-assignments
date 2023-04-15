@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_739cd770076c7bb52d5aa3bef50a3a63" kind="dir">
+    <compoundname>C:/Users/ENVY 15/source/repos/BankApplication/Exceptions</compoundname>
+    <innerfile refid="_account_not_found_exception_8cs">AccountNotFoundException.cs</innerfile>
+    <innerfile refid="_insufficient_balance_exception_8cs">InsufficientBalanceException.cs</innerfile>
+    <innerfile refid="_invalid_amount_exception_8cs">InvalidAmountException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/"/>
+  </compounddef>
+</doxygen>

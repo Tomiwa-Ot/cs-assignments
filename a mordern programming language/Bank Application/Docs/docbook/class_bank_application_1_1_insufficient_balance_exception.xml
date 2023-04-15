@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_bank_application_1_1_insufficient_balance_exception" xml:lang="en-US">
+<title>BankApplication.InsufficientBalanceException Class Reference</title>
+<indexterm><primary>BankApplication.InsufficientBalanceException</primary></indexterm>
+<para>
+
+<para>Exception thrown if the transaction amount is greater than the customers balance. </para>
+ 
+</para>
+<para>Inheritance diagram for BankApplication.InsufficientBalanceException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_bank_application_1_1_insufficient_balance_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_bank_application_1_1_insufficient_balance_exception_1a95302bb6fa5bb8ecfa162ff504a033f0">InsufficientBalanceException</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_bank_application_1_1_insufficient_balance_exception_1afb59b23fb3a1ea9c8b75f5a213040b7d">InsufficientBalanceException</link> (double balance, double amount)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Exception thrown if the transaction amount is greater than the customers balance. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_bank_application_1_1_insufficient_balance_exception_1a95302bb6fa5bb8ecfa162ff504a033f0"/><section>
+    <title>InsufficientBalanceException()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InsufficientBalanceException</primary><secondary>BankApplication.InsufficientBalanceException</secondary></indexterm>
+<indexterm><primary>BankApplication.InsufficientBalanceException</primary><secondary>InsufficientBalanceException</secondary></indexterm>
+<para><computeroutput>BankApplication.InsufficientBalanceException.InsufficientBalanceException ( )</computeroutput></para></section>
+<anchor xml:id="_class_bank_application_1_1_insufficient_balance_exception_1afb59b23fb3a1ea9c8b75f5a213040b7d"/><section>
+    <title>InsufficientBalanceException()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InsufficientBalanceException</primary><secondary>BankApplication.InsufficientBalanceException</secondary></indexterm>
+<indexterm><primary>BankApplication.InsufficientBalanceException</primary><secondary>InsufficientBalanceException</secondary></indexterm>
+<para><computeroutput>BankApplication.InsufficientBalanceException.InsufficientBalanceException (double balance, double amount)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/<link linkend="__insufficient_balance_exception_8cs">InsufficientBalanceException.cs</link></section>
+</section>

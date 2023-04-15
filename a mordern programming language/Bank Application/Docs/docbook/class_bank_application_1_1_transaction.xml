@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_bank_application_1_1_transaction" xml:lang="en-US">
+<title>BankApplication.Transaction Class Reference</title>
+<indexterm><primary>BankApplication.Transaction</primary></indexterm>
+<para>
+
+<para>All transactions that can be performed by bank application. </para>
+ 
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_bank_application_1_1_transaction_1afc6c42fe35db3fef776192cec69c3ba6">Deposit</link> (<link linkend="_class_bank_application_1_1_account">Account</link> account, double amount)</para>
+
+<para>Deposits money into the customers account. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_bank_application_1_1_transaction_1a1eaac8419796e1defdec4cf382d762cc">Withdraw</link> (<link linkend="_class_bank_application_1_1_account">Account</link> account, double amount)</para>
+
+<para>Withdraws money from a customers account. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_bank_application_1_1_transaction_1a2bc6c4ea8c375df39354547bdc925afc">Transfer</link> (<link linkend="_class_bank_application_1_1_account">Account</link> sender, string account, double amount)</para>
+
+<para>Transfers money from one customer to another. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>All transactions that can be performed by bank application. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_bank_application_1_1_transaction_1afc6c42fe35db3fef776192cec69c3ba6"/><section>
+    <title>Deposit()</title>
+<indexterm><primary>Deposit</primary><secondary>BankApplication.Transaction</secondary></indexterm>
+<indexterm><primary>BankApplication.Transaction</primary><secondary>Deposit</secondary></indexterm>
+<para><computeroutput>static void BankApplication.Transaction.Deposit (<link linkend="_class_bank_application_1_1_account">Account</link> account, double amount)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Deposits money into the customers account. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>account</entry><entry>
+<para>The account to be credited</para>
+</entry>
+                            </row>
+                            <row>
+<entry>amount</entry><entry>
+<para>A non-negative and non-zero number to be deposited</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_bank_application_1_1_transaction_1a2bc6c4ea8c375df39354547bdc925afc"/><section>
+    <title>Transfer()</title>
+<indexterm><primary>Transfer</primary><secondary>BankApplication.Transaction</secondary></indexterm>
+<indexterm><primary>BankApplication.Transaction</primary><secondary>Transfer</secondary></indexterm>
+<para><computeroutput>static void BankApplication.Transaction.Transfer (<link linkend="_class_bank_application_1_1_account">Account</link> sender, string account, double amount)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Transfers money from one customer to another. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>sender</entry><entry>
+<para>The account to be debited</para>
+</entry>
+                            </row>
+                            <row>
+<entry>account</entry><entry>
+<para>The account to be credited</para>
+</entry>
+                            </row>
+                            <row>
+<entry>amount</entry><entry>
+<para>A non-negative and non-zero number to be transfered</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_bank_application_1_1_transaction_1a1eaac8419796e1defdec4cf382d762cc"/><section>
+    <title>Withdraw()</title>
+<indexterm><primary>Withdraw</primary><secondary>BankApplication.Transaction</secondary></indexterm>
+<indexterm><primary>BankApplication.Transaction</primary><secondary>Withdraw</secondary></indexterm>
+<para><computeroutput>static void BankApplication.Transaction.Withdraw (<link linkend="_class_bank_application_1_1_account">Account</link> account, double amount)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Withdraws money from a customers account. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>account</entry><entry>
+<para>The account to be debited</para>
+</entry>
+                            </row>
+                            <row>
+<entry>amount</entry><entry>
+<para>A non-negative and non-zero number to be withdrawn</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/ENVY 15/source/repos/BankApplication/<link linkend="__transaction_8cs">Transaction.cs</link></section>
+</section>

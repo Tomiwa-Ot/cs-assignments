@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_bank_application_1_1_invalid_amount_exception" kind="class" language="C#" prot="public">
+    <compoundname>BankApplication::InvalidAmountException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bank_application_1_1_invalid_amount_exception_1a2895b2180a724757deaca560af0dc3d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BankApplication.InvalidAmountException.InvalidAmountException</definition>
+        <argsstring>()</argsstring>
+        <name>InvalidAmountException</name>
+        <qualifiedname>BankApplication.InvalidAmountException.InvalidAmountException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs" line="14" column="16" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_application_1_1_invalid_amount_exception_1a438aefd09c300ed5644cb22992e26a33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BankApplication.InvalidAmountException.InvalidAmountException</definition>
+        <argsstring>(double amount)</argsstring>
+        <name>InvalidAmountException</name>
+        <qualifiedname>BankApplication.InvalidAmountException.InvalidAmountException</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs" line="16" column="16" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Exception thrown if customer enters a non-positive amount. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BankApplication.InvalidAmountException</label>
+        <link refid="class_bank_application_1_1_invalid_amount_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BankApplication.InvalidAmountException</label>
+        <link refid="class_bank_application_1_1_invalid_amount_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs" line="12" column="11" bodyfile="C:/Users/ENVY 15/source/repos/BankApplication/Exceptions/InvalidAmountException.cs" bodystart="13" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_bank_application_1_1_invalid_amount_exception_1a2895b2180a724757deaca560af0dc3d0" prot="public" virt="non-virtual"><scope>BankApplication::InvalidAmountException</scope><name>InvalidAmountException</name></member>
+      <member refid="class_bank_application_1_1_invalid_amount_exception_1a438aefd09c300ed5644cb22992e26a33" prot="public" virt="non-virtual"><scope>BankApplication::InvalidAmountException</scope><name>InvalidAmountException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
