@@ -25,5 +25,16 @@ namespace BankApplication
             this.transactionPin = transactionPin;
             balance = 0.00;
         }
+
+        public override string ToString()
+        {
+            string output = "";
+            output += $"\n Name: {customer.lastname} {customer.firstname}";
+            output += $"\n AccountNo: {accountNumber}";
+            output += $"\n Account Type: {Enum.GetName(typeof(AccountType), type)}";
+            output += $"\n Balance: # {balance}\n";
+
+            return output;
+        }
     }
 }

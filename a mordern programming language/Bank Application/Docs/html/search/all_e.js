@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['transaction_0',['Transaction',['../class_bank_application_1_1_transaction.html',1,'BankApplication']]],
-  ['transaction_2ecs_1',['Transaction.cs',['../_transaction_8cs.html',1,'']]],
-  ['transactionpin_2',['transactionPin',['../class_bank_application_1_1_account.html#a8846f23a1cfe13e244ae3a52626f7238',1,'BankApplication::Account']]],
-  ['transfer_3',['Transfer',['../class_bank_application_1_1_transaction.html#a2bc6c4ea8c375df39354547bdc925afc',1,'BankApplication::Transaction']]],
-  ['type_4',['type',['../class_bank_application_1_1_account.html#adfa7f4504fd8b1ecba12879e9572409e',1,'BankApplication::Account']]]
+  ['savings_0',['Savings',['../namespace_bank_application.html#af9451dc19dfe3df0cc392097cff3854aaab0da0e987457927aebb5111d5d32c12',1,'BankApplication']]],
+  ['search_1',['Search',['../class_bank_application_1_1_database.html#ac011b2f3070d73d5973d7fd881ba2ece',1,'BankApplication::Database']]],
+  ['start_2',['Start',['../class_bank_application_1_1_application.html#a1f25b0691f74cf2d578dc12d8c876819',1,'BankApplication::Application']]],
+  ['stop_3',['Stop',['../class_bank_application_1_1_application.html#a1343616a80fe369c52d04d62e437e035',1,'BankApplication::Application']]]
 ];

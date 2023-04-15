@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nname_0',['nName',['../_application_8cs.html#afdaddeaeb0b72d620bd2a5db32bb0ba2',1,'Application.cs']]]
+  ['databasefile_0',['databaseFile',['../class_bank_application_1_1_database.html#a47bcfcfe4861000043443de33d85351b',1,'BankApplication::Database']]]
 ];

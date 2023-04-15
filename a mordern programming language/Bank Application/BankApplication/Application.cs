@@ -438,10 +438,7 @@ namespace BankApplication
         /// <param name="account"></param>
         private static void PrintCustomerData(Account account)
         {
-            Console.WriteLine($"\n Name: {account.customer.lastname} {account.customer.firstname}");
-            Console.WriteLine($" AccountNo: {account.accountNumber}");
-            Console.WriteLine($" Account Type: {Enum.GetName(typeof(AccountType), account.type)}");
-            Console.WriteLine($" Balance: # {account.balance}\n");
+            Console.WriteLine(account.ToString());
         }
 
         /// <summary>
