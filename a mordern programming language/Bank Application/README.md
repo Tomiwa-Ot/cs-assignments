@@ -1,4 +1,4 @@
-Simulate a bank application using C#
+Simulate a bank application using C#, perform unit tests, write specifications and generate documentation.
 
 
 ### Output
