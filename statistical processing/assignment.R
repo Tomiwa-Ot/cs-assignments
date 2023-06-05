@@ -30,7 +30,7 @@ max_age <- max(df$age)
 # Five number summary
 print(fivenum(df$age))
 # 90th percentile
-qunatile(df$age, probs=c(0.90))
+quantile(df$age, probs=c(0.90))
 # Summarize the age variable from the df data frame using the appropriate function
 summary(df$age)
 # Find the correlation between the age and bmi values
