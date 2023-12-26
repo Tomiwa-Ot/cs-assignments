@@ -15,3 +15,4 @@
 #### 400L
 - [Web Design and Data Security](/web%20design%20and%20data%20security)
 - [Software Design and Architecture](/software%20design%20and%20architecture)
+- [Data Design and Management](/data%20design%20and%20management)
