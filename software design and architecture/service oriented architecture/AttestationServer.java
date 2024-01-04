@@ -15,7 +15,6 @@ public class AttestationServer extends JHttpService {
 	// Attestation service configurations
 	private final String SERVICE_NAME = "Attestation-Service";
 	private final String SERVICE_TYPE = "http";
-	private final String SERVICE_HOST = "10.43.4.12";
 	private final int SERVICE_PORT = 8080;
 	
 	@Override
@@ -24,7 +23,7 @@ public class AttestationServer extends JHttpService {
 		
 		// Register or update service registry with hosting configurations
 		try {
-			ServiceData data = new ServiceData(SERVICE_NAME, SERVICE_TYPE, SERVICE_HOST, SERVICE_PORT);
+			ServiceData data = new ServiceData(SERVICE_NAME, SERVICE_TYPE, getHostAddress(), SERVICE_PORT);
 			reg.registerService(data);
 			
 		} catch (DnsSDException e) {

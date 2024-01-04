@@ -16,7 +16,6 @@ public class AccountingApplication extends JHttpService {
 	// Accounting application configuration
 	private final String SERVICE_NAME = "AccountingApplication";
 	private final String SERVICE_TYPE = "http";
-	private final String SERVICE_HOST = "10.43.4.23";
 	private final int SERVICE_PORT = 8081;
 	
 	private final String AUTHENTICATION_TARGET = "Attestation-Service";
@@ -27,7 +26,7 @@ public class AccountingApplication extends JHttpService {
 		
 		// Register or update service registry with hosting configurations
 		try {
-			ServiceData data = new ServiceData(SERVICE_NAME, SERVICE_TYPE, SERVICE_HOST, SERVICE_PORT);
+			ServiceData data = new ServiceData(SERVICE_NAME, SERVICE_TYPE, getHostAddress(), SERVICE_PORT);
 			reg.registerService(data);
 			
 		} catch (DnsSDException e) {
