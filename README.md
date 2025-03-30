@@ -18,4 +18,4 @@
 - [Data Design and Management](/data%20design%20and%20management)
 #### 500L
 - [Computer Graphics](/computer%20graphics)
-- [Operating Systems II](/operating%20systems%20II)
+- [Operating Systems II](/operating%20system%20II)
